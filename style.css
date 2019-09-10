@@ -1,4 +1,5 @@
 * {
+  overflow-x: hidden;
   margin: 0%;
   font-family: 'Montserrat', sans-serif;
 }
@@ -135,7 +136,7 @@ footer {
 }
 
 .columnaUno {
-width: 30%;
+width: 75%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -145,7 +146,7 @@ color: rgb(255, 255, 255);
 }
 
 .columnaDos {
-width: 20%;
+width: 49%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -154,7 +155,7 @@ color: rgb(255, 255, 255);
 }
 
 .columnaTres {
-width: 130%;
+width: 170%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -167,8 +168,49 @@ color: rgb(255, 255, 255);
   height: 100;
 }
 
+.tamImagen {
+  width: auto;
+  height: 25%;
 
 
+}
+
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: space-between;
+  margin-left: 4%;
+
+  
+}
+
+.titulo {
+ font-size: 120%;
+ color: dimgrey;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 3%;
+}
+
+ .contenidoUno {
+  margin-top: 5%; 
+ }
+ 
+.barraDetalles {
+
+  font-size: 90%;
+  margin-top: 2%; 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 7%;
+  margin-right: 9%;
+}
 
 
 
