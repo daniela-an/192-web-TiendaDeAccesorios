@@ -1,0 +1,175 @@
+* {
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navBar {
+  position: relative;
+
+}
+
+.navBarContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  height: 100px;
+}
+
+.staticBar {
+  position: static;
+  top: 0;
+  max-width: 100%;
+  height: 30px;
+  background-color: #CDB6AB;
+}
+
+/* Iconos del menú (tamaño)*/
+.styleImgMenu {
+  width: 2%;
+
+}
+
+.styleImgLogo {
+  width: 12%;
+}
+
+.navigation {
+  list-style: none;
+}
+
+/* Iconos */
+.navBarItems {
+  text-decoration: none;
+  padding: 3em;
+  color: black;
+  font-weight: 100;
+}
+
+
+
+.navBarItems:hover {
+  font-weight: 800;
+}
+
+.barItems {
+  display: inline;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imgBanner {
+  max-width: 53%;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 24px;
+  max-width: 100%;
+  background-color: #CDB6AB;
+}
+
+.bannerInfo {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+}
+
+/* Letrero Amuletos  */
+.bannerInfoAmuletos {
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+  color: #7B3631;
+}
+
+/*Letrero Nueva colección*/
+.bannerInfoColecion {
+  font-style: italic;
+  font-weight: 370;
+  font-size: 25px;
+  color: rgb(145, 93, 45);
+  margin-top: 10px;
+}
+
+/* Raya de Amuletos*/
+.decoracion {
+  border-color: white;
+  border: solid 2px white;
+}
+
+footer {
+  background-color: #B9B9C2;
+  max-width: 100%;
+  display: flex;
+  height: 400px;      /* Tamaño del Footer*/
+  margin-top: 700px;  /* Espacio blanco después del banner */
+
+   
+}
+
+
+.texto {
+  margin-top: 4%;
+}
+
+.textoEspacio{
+  margin-top: 3%;
+}
+
+.columnaUno {
+width: 30%;
+height: 100;
+padding: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+color: rgb(255, 255, 255);
+
+}
+
+.columnaDos {
+width: 20%;
+height: 100;
+padding: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+color: rgb(255, 255, 255);
+}
+
+.columnaTres {
+width: 130%;
+height: 100;
+padding: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+color: rgb(255, 255, 255);
+}
+
+.columnaCuatro {
+  width: 25%;
+  height: 100;
+}
+
+
+
+
+
+
+/*# sourceMappingURL=style.css.map */
