@@ -5,27 +5,51 @@
 }
 
 .navBar {
-  position: relative;
-
+display: flex;
+width: 100%;
+height: 30%;
 }
 
-.navBarContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.logo{
+  height: 100%;
+  width: 50%;
+  margin-top: 1%;
+}
+
+.navText{
+  width: 35%;
+  height: 100%;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 100%;
-  height: 100px;
+  flex-direction: row;
 }
+
+.listText{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+
+.navImg{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-top: 1.5%;
+  margin-left: 5%;
+}
+.listImg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  
+  
+}
+
 
 .staticBar {
   position: static;
@@ -37,22 +61,26 @@
 
 /* Iconos del menú (tamaño)*/
 .styleImgMenu {
-  width: 2%;
+height: 200%;
+width: 80%;   /* Iconos del menú (tamaño)*/
 
 }
 
 .styleImgLogo {
-  width: 12%;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 20%;
+
 }
 
 .navigation {
   list-style: none;
+  width: 100%;
 }
 
 /* Iconos */
 .navBarItems {
   text-decoration: none;
-  padding: 3em;
   color: black;
   font-weight: 100;
 }
@@ -60,14 +88,28 @@
 
 
 .navBarItems:hover {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .barItems {
+  padding: 3em;
   display: inline;
+  position: static;
   justify-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  justify-content: center;
+  
+}
+
+.barImg{
+  
+  padding: 1em;
+  height: 200%;
+  width: 43%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
   justify-content: center;
 }
 
@@ -113,7 +155,7 @@
 /* Raya de Amuletos*/
 .decoracion {
   border-color: white;
-  border: solid 2px white;
+  border: solid 3px white;
 }
 
 footer {
@@ -122,70 +164,106 @@ footer {
   display: flex;
   height: 400px;      /* Tamaño del Footer*/
   margin-top: 700px;  /* Espacio blanco después del banner */
-
-   
+  padding-left: 2%;
+  
 }
 
 
-.texto {
-  margin-top: 4%;
-}
-
-.textoEspacio{
-  margin-top: 3%;
-}
 
 .columnaUno {
-width: 75%;
+margin-top: 3%;
+width: 95%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 17px;
+font-size: 16px;
 color: rgb(255, 255, 255);
+}
 
+.textoUno {
+  margin-top: 2%;
+}
+
+.nombre{
+  margin-top: 30%;
+}
+
+.mail{
+  margin-top: 5%;
+}
+
+.botonSuscribir{
+  background:rgb(105, 176, 189);
+  margin-top: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+ 
 }
 
 .columnaDos {
-width: 49%;
+margin-top: 3%;
+width: 89%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 17px;
+font-size: 16px;
 color: rgb(255, 255, 255);
 }
 
+.textoEspacio{
+  margin-top: 7%;
+}
+
+.textoDos{
+ margin-top: 8%;
+}
+
 .columnaTres {
+margin-top: 3%;
 width: 170%;
 height: 100;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 17px;
+font-size: 16px;
 color: rgb(255, 255, 255);
 }
 
-.columnaCuatro {
-  width: 25%;
-  height: 100;
+.textoTres{
+ margin-top: 4%; 
 }
+
+/*  OFERTA*/
+.columnaCuatro {
+  width: 200%;
+  height: 100;
+  background: rgb(105, 176, 189);
+  margin-right: 6%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+
+}
+
+.descuento {
+  font-size: 240%;
+  margin-left: 10%;
+  margin-top: 17%;
+  margin-right: 10%;
+  font-family:'Philosopher', sans-serif;
+  color: white;
+
+}
+
 
 .tamImagen {
   width: auto;
   height: 25%;
-
-
 }
 
-.imagenes {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 80%;
-  justify-content: space-around;
-  
-  
-}
 
-.titulo {
+
+
+/*CATEGORIAS*/
+.tituloUno {
  font-size: 120%;
  color: dimgrey;
  margin: auto;
@@ -194,10 +272,42 @@ color: rgb(255, 255, 255);
  margin-bottom: 3%;
 }
 
+.imagenesUno {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: space-around;
+  
+}
+
  .contenidoUno {
   margin-top: 5%; 
  }
  
+/*NUEVOS PRODUCTOS*/
+
+.contenidoDos {
+  margin-top: -62%;
+}
+
+.tituloDos{
+ font-size: 120%;
+ color: dimgrey;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 3%;
+}
+
+.imagenesDos {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: space-around;
+}
+
 .barraDetalles {
 
   font-size: 90%;

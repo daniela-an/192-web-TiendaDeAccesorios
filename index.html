@@ -16,32 +16,36 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <nav class="navBar">
         <div class="staticBar"></div>
-        <div class="navBarContainer">
-            <ul class="navigation">
-                <li class="barItems"><a class="navBarItems" href="#"><img class="styleImgLogo" src="./imagenes/Logo.png"
-                            alt="logo Emilia"></a></li>
-                <li class="barItems"><a class="navBarItems" href="#">Productos</a></li>
-                <li class="barItems"><a class="navBarItems" href="#">Tienda</a></li>
-                <li class="barItems"><a class="navBarItems" href="#">Contactános<a></li>
-       
-
-                <li class="barItems"><a class="navBarItems" href="#"><img class="styleImgMenu"
-                            src="./imagenes/search.svg" alt=""></a></li>
-                <li class="barItems"><a class="navBarItems" href="#"><img class="styleImgMenu" src="./imagenes/user.svg"
-                            alt=""></a></li>
-                <li class="barItems"><a class="navBarItems" href="#"><img class="styleImgMenu"
-                            src="./imagenes/shopping-bag.svg" alt=""></a></li>
-            </ul>
+    <div class="navBar">
+        <div class="logo">
+                <img class="styleImgLogo" src="./imagenes/Logo.png"
+                alt="logo Emilia">
         </div>
+        <div class="navText">
+                <ul class="listText">
+                        <li class="barItems"><a class="navBarItems" href="#">Productos</a></li>
+                        <li class="barItems"><a class="navBarItems" href="#">Tienda</a></li>
+                        <li class="barItems"><a class="navBarItems" href="#">Contactános</a></li>
+                </ul>    
+        </div>
+        <div class="navImg">
+                <ul class="listImg">
+                    <li class="barImg"><img class="styleImgMenu"  src="./imagenes/search.svg" alt=""></li>
+                    <li class="barImg"><img class="styleImgMenu" src="./imagenes/user.svg" alt=""></li>
+                    <li class="barImg"><img class="styleImgMenu" src="./imagenes/shopping-bag.svg" alt=""></li>
+                </ul>
+           
+        </div>
+                
         
-    </nav>
+    </div>
 
     <div class="banner">
         <div class="aside asideBanner"> <img class="imgBanner" src="/imagenes/banner.jpg" alt="banner imagen"></div>
@@ -54,6 +58,7 @@
 
  <div class="productos">
 
+        <!-- características principales con descripción -->
         <div class= "barraDetalles">
         <p>HECHO A MANO <br>Made with love</p>
         <p>ENVIOS A TODO EL MUNDO<br>Wordlwide shipping </strong><p>
@@ -63,66 +68,102 @@
 
     <div class="contenidoUno">
 
-         <div class= "titulo" >
-         <p><strong>CATEGORIAS</strong></p>  
+         <div class= "tituloUno" >
+         <p><strong>-Categorías-</strong></p>  
          </div>
 
-         <div class="imagenes" >
-             <div class="carta"> 
-                 <img  class="tamImagen" src="./imagenes/arete.jpg" alt=""> 
-                 <p>Aretes</p>
+         <div class="imagenesUno" >
+             <div class="cartaUno"> 
+                  <img  class="tamImagen" src="./imagenes/aretesUno.jpg" alt=""> 
+                  <p>Aretes</p>
             </div>
 
-             <div class="carta"> 
-                 <img class="tamImagen" src="./imagenes/producto.jpg" alt="">  
-                 <p>Anillos</p>
+             <div class="cartaUno"> 
+                  <img class="tamImagen" src="./imagenes/anillosUno.jpg" alt="">  
+                  <p>Anillos</p>
             </div>
 
-             <div class="carta"> 
-                 <img class="tamImagen" src="./imagenes/pulseras.jpg" alt=""> 
-                 <p>Pulseras</p> 
+             <div class="cartaUno"> 
+                  <img class="tamImagen" src="./imagenes/pulseraUno.jpg" alt=""> 
+                  <p>Pulseras</p> 
             </div >
 
-             <div class="carta"> 
-                 <img class="tamImagen" src="./imagenes/collar.jpg" alt=""> 
-                 <p>Collares</p>
+             <div class="cartaUno"> 
+                  <img class="tamImagen" src="./imagenes/collaresUno.jpg" alt=""> 
+                  <p>Collares</p>
             </div>
      
 
+         </div>  <!-- Cierre div imagenes--> 
+    </div>  <!-- Cierre div contenidoUno--> 
+
+
+    <div class="contenidoDos">
+
+         <div class= "tituloDos" >
+         <p><strong>-Nuevos Productos-</strong></p>  
          </div>
+        
+         <div class="imagenesDos" >
+                <div class="cartaDos"> 
+                     <img  class="tamImagen" src="./imagenes/collarUno.jpg" alt=""> 
+                     <p>Collar Infinito</p>
+               </div>
+   
+                <div class="cartaDos"> 
+                     <img class="tamImagen" src="./imagenes/collarDos.jpg" alt="">  
+                     <p>Collar Amor Infinito </p>
+               </div>
+   
+                <div class="cartaDos"> 
+                     <img class="tamImagen" src="./imagenes/collarTres.jpg" alt=""> 
+                     <p>Collar Hueso Suerte</p> 
+               </div >
+   
+                <div class="cartaDos"> 
+                     <img class="tamImagen" src="./imagenes/collarCuatro.jpg" alt=""> 
+                     <p>Collar Rayo</p>
+               </div>
+        
+   
+            </div>  <!-- Cierre div imagenesDos--> 
 
-    </div>
+    </div> <!-- Cierre div contenidoDos--> 
 
- </div>   
+ </div>   <!-- Cierre div producto--> 
 
  
     <footer>
         <div class="columnaUno"> 
             
             <p><strong>¿Deseas vender Ave María?</strong></p>
-            <p class= 'texto'>Click aquí para conocer todos <br>los beneficios</p>
+            <p class= 'textoUno'>Click aquí para conocer todos los  beneficios</p>
+            <input class="nombre" type="text" placeholder="Ingresa tu nombre">
+            <input class="mail" type="text" placeholder="Ingresa tu Email">
+            <button class="botonSuscribir"> Suscribete </button>
         </div>
-
 
 
         <div class="columnaDos">
                 <p><strong>Contáctanos</strong></p>
-                <p class= 'texto'>Calle 13a # 85a-20 </p>
+                <p class= 'textoDos'>Calle 13a # 85a-20 </p>
                 <p class= 'textoEspacio'>info@emilia.com</p>
                 <p class= 'textoEspacio'>+57 3042062364</p>
         </div>
 
+
         <div class="columnaTres">
           <p><strong>Suscríbete a nuestro boletín</strong></p>
-          <p class='texto'>Suscríbete en nuestro boletín y <br> obtén un 10% de descuento en <br> tu primera compra</p>
+          <p class="textoTres">Suscríbete en nuestro boletín y <br>obtén un 10% de descuento en <br> tu primera compra</p>
 
         </div>
         
        <div class= "columnaCuatro">
-
+           <p  class= "descuento">En Amor y Amistad disfruta hasta un <br> <strong>62% </strong>de descuento</p>
        </div>
 
 
+          
         
 
     </footer>
