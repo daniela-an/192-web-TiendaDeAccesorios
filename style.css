@@ -267,6 +267,25 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   height: auto;
 }
 
+/*OFERTA*/
+.oferta{
+  background: #DBB7A2;
+  margin-top: 5%;
+  height: 130px;
+  
+}
+
+.rectangulo {
+  
+  font-size: 30px; 
+  color:white;
+  text-align: center;
+  margin-top: 1%;
+  font-family: inherit;
+  
+}
+
+
   
 /*características principales con descripción*/
 .barraDetalles {
