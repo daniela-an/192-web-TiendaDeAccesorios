@@ -65,6 +65,7 @@ height: 200%;
 width: 80%;   /* Iconos del menú (tamaño)*/
 }
 
+
 /* Iconos */
 .navBarItems {
   text-decoration: none;
@@ -79,10 +80,12 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   margin-left: 20%;
 }
 
+
 .navigation {
   list-style: none;
   width: 100%;
 }
+
 
 .navBarItems:hover {
   font-weight: 600;
@@ -98,6 +101,7 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   -ms-flex-pack: center;
   justify-content: center; 
 }
+
 
 .barImg{
   
@@ -115,6 +119,7 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   max-width: 53%;
 }
 
+
 .banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,11 +133,13 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   background-color: #CDB6AB;
 }
 
+
 .bannerInfo {
   position: absolute;
   bottom: 100px;
   right: 100px;
 }
+
 
 /* Letrero Amuletos  */
 .bannerInfoAmuletos {
@@ -140,6 +147,7 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   font-size: 80px;
   color: #7B3631;
 }
+
 
 /*Letrero Nueva colección*/
 .bannerInfoColecion {
@@ -156,59 +164,16 @@ width: 80%;   /* Iconos del menú (tamaño)*/
   border: solid 3px white;
 }
 
-/*FOOTER*/
-footer{
-  background:#C6C3C2;
-}
-.footerGrupo{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 70%;
-  margin: auto;
-  margin-top: 80px;
-
-}
-
-
-
-.footerList{
-  display: flex;
-  flex-direction: column;
-}
-.titulo{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 18px;
-  padding: 10px;
-  color: rgb(255, 255, 255);
-}
-.textoInfo{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 15px;
-  padding: 5px;
-  color: azure;
-}
-
-.descuento {
-  font-size: 240%;
-  margin-left: 10%;
-  margin-top: 17%;
-  margin-right: 10%;
-  font-family:'Philosopher', sans-serif;
-  color: white;
-
-}
-
-
-.tamImagen {
-  width: auto;
-  height: 17%;
-}
-
-
 
 
 /****CATEGORIAS****/
+
+
+.tamImagen {
+  width: 300px;
+  height: auto;
+}
+
 .tituloUno {
  font-size: 120%;
  color: dimgrey;
@@ -230,14 +195,27 @@ footer{
 
  .contenidoUno {
   margin-top: 3%; 
+  width: 100%;
+  height: 30%;
+  
+  margin-left: 2%;
  }
  
+ .cartaUno{
+   width: 25%;
+   height: 300px;
+ }
 /****NUEVOS PRODUCTOS****/
 
 .contenidoDos {
-  margin-top: -75%;
+  width: 100%;
+  height: 30%;
+  margin-top: 10%;
+  
+  margin-left: 2%;
 }
-.cartados{
+.cartaDos{
+  width: 25%;
   height: 300px;
 }
 .tituloDos{
@@ -257,11 +235,11 @@ footer{
   justify-content: space-around;
 }
 
-/* COMPARTE TUS FOTOS*/
+/***COMPARTE TUS FOTOS***/
 
 .contenidoTres {
-  margin-top: -70%;
   width: 100%;
+  margin-top: 10%;
 }
 
 .tituloTres{
@@ -281,8 +259,8 @@ footer{
   height: 80%;
   margin-left: 10%;
 
-  
 }
+
 
 .tamImagenTres {
   width: 100%;
@@ -304,6 +282,37 @@ footer{
   margin-right: 3%;
 }
 
+/*FOOTER*/
+footer{
+  background:#C6C3C2;
+}
+.footerGrupo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.footerList{
+  display: flex;
+  flex-direction: column;
+}
+.titulo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.textoInfo{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 5px;
+  color: azure;
+}
+
+/*SLIDER*/ 
 #car {
   width: 100%;
   height: auto;
