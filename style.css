@@ -2,6 +2,7 @@
   
   margin: 0%;
   font-family: 'Montserrat', sans-serif;
+  
 }
 
 .navBar {
@@ -161,9 +162,11 @@ width: 80%;   /* Iconos del menú (tamaño)*/
 footer {
   background-color: #B9B9C2;
   max-width: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   height: 400px;      /* Tamaño del Footer*/
-  margin-top: 700px;  /* Espacio blanco después del banner */
+    /* Espacio blanco después del banner */
   padding-left: 2%;
   
 }
@@ -172,8 +175,8 @@ footer {
 
 .columnaUno {
 margin-top: 3%;
-width: 95%;
-height: 100;
+width: 25%;
+height: 100%;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
@@ -202,8 +205,9 @@ color: rgb(255, 255, 255);
 
 .columnaDos {
 margin-top: 3%;
-width: 89%;
-height: 100;
+margin-left: -10%;
+width: 29%;
+height: 100%;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
@@ -220,8 +224,9 @@ color: rgb(255, 255, 255);
 
 .columnaTres {
 margin-top: 3%;
-width: 170%;
-height: 100;
+margin-left: -3%;
+width: 20%;
+height: 100%;
 padding: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 16px;
@@ -234,8 +239,8 @@ color: rgb(255, 255, 255);
 
 /*  OFERTA*/
 .columnaCuatro {
-  width: 200%;
-  height: 100;
+  width: 30%;
+  height: 100%;
   background: rgb(105, 176, 189);
   margin-right: 6%;
   margin-top: 3%;
@@ -290,7 +295,9 @@ color: rgb(255, 255, 255);
 .contenidoDos {
   margin-top: -75%;
 }
-
+.cartados{
+  height: 300px;
+}
 .tituloDos{
  font-size: 120%;
  color: dimgrey;
@@ -312,6 +319,7 @@ color: rgb(255, 255, 255);
 
 .contenidoTres {
   margin-top: -70%;
+  width: 100%;
 }
 
 .tituloTres{
@@ -321,22 +329,26 @@ color: rgb(255, 255, 255);
  display: flex;
  justify-content: center;
  margin-bottom: 3%;
+ width: 100%;
 }
 
 .imagenesTres {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 80%;
   height: 80%;
-  justify-content: space-around;
+  margin-left: 10%;
+
+  
 }
 
 .tamImagenTres {
-  width: auto;
-  height: 68%;
+  width: 100%;
+  height: auto;
 }
-  
 
+  
+/*características principales con descripción*/
 .barraDetalles {
 
   font-size: 90%;
@@ -350,6 +362,10 @@ color: rgb(255, 255, 255);
   margin-right: 3%;
 }
 
-
+#car {
+  width: 100%;
+  height: auto;
+    }
+    
 
 /*# sourceMappingURL=style.css.map */
