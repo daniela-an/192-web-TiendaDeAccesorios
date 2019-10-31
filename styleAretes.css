@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  
+  .navBar {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  }
+  
+  .logo{
+    height: 100%;
+    width: 50%;
+    margin-top: 1%;
+  }
+  
+  .navText{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .listText{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+  }
+  
+  
+  .navImg{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-top: 1.5%;
+    margin-left: 5%;
+  }
+  
+  .listImg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 70%; 
+  }
+  
+  
+  .staticBar {
+    position: static;
+    top: 0;
+    max-width: 100%;
+    height: 30px;
+    background-color: #CDB6AB;
+  }
+  
+  
+  /* Iconos del menú (tamaño)*/
+  .styleImgMenu {
+  height: 200%;
+  width: 80%;   /* Iconos del menú (tamaño)*/
+  }
+  
+  
+  /* Iconos */
+  .navBarItems {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+  }
+  
+  
+  .styleImgLogo {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  
+  
+  .navigation {
+    list-style: none;
+    width: 100%;
+  }
+  
+  
+  .navBarItems:hover {
+    font-weight: 600;
+  }
+  
+  
+  .barItems {
+    padding: 3em;
+    display: inline;
+    position: static;
+    justify-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+  }
+  
+  
+  .barImg{
+    
+    padding: 1em;
+    height: 200%;
+    width: 43%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+  }
+  
+  
+  .imgBanner {
+    max-width: 53%;
+  }
+  
+  
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 24px;
+    max-width: 100%;
+    background-color: #CDB6AB;
+  }
+  
+  
+  .bannerInfo {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+  
+  
+  /* Letrero Amuletos  */
+  .bannerInfoAmuletos {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #7B3631;
+  }
+  
+  
+  /*Letrero Nueva colección*/
+  .bannerInfoColecion {
+    font-style: italic;
+    font-weight: 370;
+    font-size: 25px;
+    color: rgb(145, 93, 45);
+    margin-top: 10px;
+  }
+  
+  /* Raya de Amuletos*/
+  .decoracion {
+    border-color: white;
+    border: solid 3px white;
+  }
+  
+  
+  /*características principales con descripción*/
+  .barraDetalles {
+  
+    font-size: 90%;
+    margin-top: 2%; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+/* GALERIA DANI CAMBIAR NOMBRES */
+  .productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+
+    background: #ffffff; 
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+  .producto{
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: solid 2px white;
+    border-radius: 11px;
+  }
+
+  .producto_img{
+    width: 100%;
+  }
+  .nombrePrecioInfo{
+    justify-content: center;
+    font-family: 'Manjari', sans-serif;
+    padding: 40px;
+  }
+  .nombrePrecioInfo_nombre{
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom: 10px;
+    
+  }
+  .nombrePrecioInfo_precio{
+    font-size: 30px;
+    margin: 0px;
+  }
+
+  /* FIN GALERIA DANI CAMBIAR NOMBRES */
